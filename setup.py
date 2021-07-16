@@ -9,7 +9,7 @@ setuptools.setup(
     description="Install all student modules for Jupyter Physical Science Lab",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/JupyterPhysSciLab/JPSLInstructor",
+    url="https://github.com/JupyterPhysSciLab/JPSLStudent",
     author="Jonathan Gutow",
     author_email="gutow@uwosh.edu",
     license="GPL-3.0+",
