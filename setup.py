@@ -20,6 +20,9 @@ setuptools.setup(
         'jupyter>=1.0.0',
         'jupyterPiDAQ>=0.7.2',
         'Algebra_with_SymPy>=0.9.0',
+        'jupyter_Pandas_GUI', # no version b/c should be imported by other pkg.
+        'jupyter-datainputtable>=0.7.3',
+        'JPSLUtils', # no version b/c should be imported by other pkgs.
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
