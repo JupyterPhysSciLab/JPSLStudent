@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="JPSLStudent",
-    version="0.5.2",
+    version="0.5.3",
     description="Install all student modules for Jupyter Physical Science Lab",
     long_description=long_description,
     long_description_content_type="text/markdown",
