@@ -18,6 +18,7 @@ setuptools.setup(
     install_requires=[
         # 'python>=3.6',
         'jupyter>=1.0.0',
+        'notebook==6.4.0', # until html styling again works in markdown.
         'jupyterPiDAQ>=0.7.3',
         'Algebra_with_SymPy>=0.9.0',
         'jupyter_Pandas_GUI', # no version b/c should be imported by other pkg.
