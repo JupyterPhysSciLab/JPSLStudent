@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="JPSLStudent",
-    version="0.5.4",
+    version="0.6.0",
     description="Install all student modules for Jupyter Physical Science Lab",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -18,9 +18,9 @@ setuptools.setup(
     install_requires=[
         # 'python>=3.6',
         'jupyter>=1.0.0',
-        'notebook>=6.4.7',
-        'jupyterPiDAQ>=0.7.3',
-        'Algebra_with_SymPy>=0.9.0',
+        'notebook>=6.4.10',
+        'jupyterPiDAQ>=0.7.6',
+        'Algebra_with_SymPy>=0.9.1',
         'jupyter_Pandas_GUI', # no version b/c should be imported by other pkg.
         'jupyter-datainputtable>=0.7.5',
         'JPSLUtils', # no version b/c should be imported by other pkgs.
